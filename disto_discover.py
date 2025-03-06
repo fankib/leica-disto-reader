@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import struct
 import pyautogui
@@ -10,6 +11,8 @@ Script to discover and read out the measurements.
     arguments: --client "XX:XX:XX:XX:XX"
       directly connects to the client device.
       if no argument is given, the first device with "Disto" in its name is selected.
+
+TODO: disconnect gracefully
 
 '''
 
